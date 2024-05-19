@@ -32,7 +32,7 @@ Features:
 * Install RHVoice TTS engine (optional)
 * Install Zigbee2MQTT service (optional)
 * Install Redis for caching (optional)
-* Install VLC service (optional)
+* Install VLC player service (optional)
 
 Post-installation:
 * Reboot the system (recommended)
