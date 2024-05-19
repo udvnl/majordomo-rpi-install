@@ -1,0 +1,12 @@
+[Unit]
+Description=VLCDaemon
+[Service]
+Requires=majordomo.service
+Type=simple
+WorkingDirectory=/var/www
+ExecStart=/usr/bin/vlc -I http --http-password=12345  --http-port 7070
+Restart=always
+User=www-data
+Group=www-data
+[Install]
+WantedBy=multi-user.target
