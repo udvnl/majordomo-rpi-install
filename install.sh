@@ -78,6 +78,9 @@ fi
 if [ $install_z2m == "y" ]; then
  source "./sections/install_zigbee2mqtt.sh"
 fi
+if [ $install_VLC == "y" ]; then
+source "./sections/install_vlc.sh"
+fi
 if [ $install_homebridge == "y" ]; then
  source "./sections/install_homebridge.sh"
 fi
@@ -87,6 +90,7 @@ fi
 if [ $set_disable_updates == "y" ]; then
  source "./sections/install_disable_updates.sh"
 fi
+#todo
 #todo
 #if [ $install_zwave2mqtt == "y" ]; then
 # source "./sections/install_zwave2mqtt.sh"
