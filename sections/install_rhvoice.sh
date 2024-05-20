@@ -1,5 +1,4 @@
 #!/bin/bash
-
 showMessage "Installing RHVoice speech engine..."
 
 runSudo "apt-get install -y mplayer"
